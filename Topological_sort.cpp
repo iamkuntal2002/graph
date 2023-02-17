@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
+//bfs solution is known as kahn's algorithm
 class Solution
 {
 	public:
@@ -22,6 +24,7 @@ class Solution
 	        if(indegree[i] == 0) qu.push(i);    //get the nodes which have 0 indegree
 	    }
 	    vector<int> res;
+		// res.em
 	    while(!qu.empty()){
 	        int node = qu.front();
 	        qu.pop();
@@ -36,5 +39,7 @@ class Solution
 };
 
 int main(){
-
+	vector<int> v = {1,2,4,5,6};
+	// v.front
+	cout<<v[v.size()-1]<<endl;
 }
