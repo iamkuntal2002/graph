@@ -37,6 +37,4 @@ int main()
     string a = "11";
     string b = "11";
     cout << addBinary(a, b) << endl;
-    vector<vector<int>> dp(3,vector<int>(3,0));
-    // vector<int> dp (3,0);
 }
