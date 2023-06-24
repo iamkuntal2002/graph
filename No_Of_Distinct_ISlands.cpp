@@ -1,5 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
+// https://practice.geeksforgeeks.org/problems/number-of-distinct-islands/1
+// https://www.codingninjas.com/studio/problems/distinct-island_630460?leftPanelTab=0
 class Solution {
   public:
   void dfs(vector<vector<int>>& grid,int m,int n,int i,int j,int x0, int y0, vector<pair<int,int>> &st){

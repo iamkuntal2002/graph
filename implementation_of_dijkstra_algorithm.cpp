@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+// https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1
 
 // using priority_queue
 vector<int> dijkstra(int V, vector<vector<int>> adj[], int S)

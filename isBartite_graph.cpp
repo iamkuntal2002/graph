@@ -1,5 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
+// https://leetcode.com/problems/is-graph-bipartite
+
 bool bfs(vector<vector<int>> &g, vector<int> &color, int src)
 {
     queue<int> qu;

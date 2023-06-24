@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+// https://practice.geeksforgeeks.org/problems/distance-of-nearest-cell-having-1-1587115620/1
 bool isvalid(int &m, int &n, int &nx, int &ny)
 {
     if (nx < 0 || ny < 0 || nx >= m || ny >= n)

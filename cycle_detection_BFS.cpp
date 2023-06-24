@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+// https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1
 bool bfs(int node, vector<int> adj[], vector<bool> &vis)
 {
     queue<pair<int, int>> qu; // v,parent;

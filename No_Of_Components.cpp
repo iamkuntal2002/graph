@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+// https://practice.geeksforgeeks.org/problems/number-of-provinces/1
 class Solution {
   public:
   void dfs(vector<int> adj[],int i, vector<bool> &vis){

@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-
-
+// https://practice.geeksforgeeks.org/problems/alien-dictionary/1
 class Solution{
     public:
 	void getindegree(vector<int> adj[], vector<int> &in,int v){

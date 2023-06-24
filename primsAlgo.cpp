@@ -1,7 +1,7 @@
 //{ Driver Code Starts
 #include<bits/stdc++.h>
 using namespace std;
-
+// https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1
 // } Driver Code Ends
 class Solution
 {

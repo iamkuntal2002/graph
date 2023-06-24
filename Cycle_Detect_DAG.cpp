@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+// https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1
 class Solution {
   public:
     bool dfs(vector<int> adj[], vector<bool> &vis, vector<bool> &dfsvis, int node){

@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+// https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1
 class Solution {
   public:
     // Function to detect cycle in an undirected graph.

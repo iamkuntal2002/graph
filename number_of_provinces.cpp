@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+// https://practice.geeksforgeeks.org/problems/number-of-provinces/1
 void dfs(vector<int> adj[], vector<bool> &vis, int u)
 {
     vis[u] = true;

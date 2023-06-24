@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+// https://practice.geeksforgeeks.org/problems/e7d81a082cda6bd1e959d943197aa3bc21b88bdb/1
 vector<int> dijkstra(int n, int a, int b, vector<pair<int, int>> adj[])
 {
     vector<int> dist(n + 1, 1e9);
